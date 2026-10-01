@@ -1,0 +1,45 @@
+/* ===== SFJ additions (2026-10) ===== */
+.nw{display:inline-block}
+.brand img{width:51px;height:51px}
+.catalyst__core img{width:116px;height:116px;object-fit:contain}
+/* business architecture */
+.sfj-arch{margin-top:70px;border:1px solid #ff64088c;padding:36px 32px 32px;color:#fff;text-align:center}
+.sfj-arch small{display:block;color:#ffb347;letter-spacing:.23em;font-size:11px;font-weight:800}
+.sfj-arch ol{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid #ffffff26;border-bottom:1px solid #ffffff26;text-align:left}
+.sfj-arch li{padding:22px 18px;border-left:1px solid #ffffff26;display:flex;flex-direction:column;gap:8px;position:relative}
+.sfj-arch li:first-child{border-left:0}
+.sfj-arch li span{color:#ffb347;font-family:var(--font-sfj);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.sfj-arch li b{font-family:var(--font-sfj);font-size:13px;letter-spacing:.06em;line-height:1.45}
+.sfj-arch li em{font-style:normal;color:#fff9;font-size:12px;line-height:1.7}
+.sfj-arch__loop{margin-top:18px;color:#ffb347;font-size:12px;font-weight:800;letter-spacing:.18em}
+.sfj-arch strong{display:block;max-width:940px;margin:22px auto 0;font-family:var(--font-sfj);font-size:clamp(15px,1.5vw,18px);font-weight:600;line-height:1.9}
+/* projects */
+.projects{border-top:1px solid var(--line);padding:104px clamp(32px,8vw,120px) 64px;background:var(--paper)}
+.projects__list{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--navy)}
+.projects__list article{padding:36px 28px 32px;border-left:1px solid var(--line);display:flex;flex-direction:column}
+.projects__list article:first-child{border-left:0;padding-left:0}
+.projects__q{color:var(--orange);font-size:13px;font-weight:700;letter-spacing:.04em}
+.projects__list h3{font-family:var(--font-sfj);font-size:clamp(22px,2.2vw,30px);font-weight:700;letter-spacing:.03em;margin:14px 0 16px}
+.projects__list article>p:not(.projects__q){color:var(--muted);font-size:14px;line-height:1.95}
+.projects__tags{margin-top:auto;padding-top:24px;display:flex;flex-wrap:wrap;gap:6px}
+.projects__tags span{font-size:11px;font-weight:700;letter-spacing:.05em;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--navy)}
+.projects__cycle{margin-top:40px;padding:22px 26px;background:var(--navy);color:#ffffffc7;font-size:14px;line-height:1.9}
+.projects__cycle b{color:#fff;margin-right:12px}
+/* organization */
+.org{grid-column:1/-1;margin:24px 0 0;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #ffffff33}
+.org>div{padding:20px 18px 0 0}
+.org dt{color:#ffb347;font-size:11px;font-weight:800;letter-spacing:.16em}
+.org dd{margin:8px 0 0;font-size:14px;line-height:1.7;color:#fff}
+.todo{background:#fff3c4;color:#6b4e00;border-radius:3px;padding:1px 6px;font-weight:600}
+@media (width<=900px){
+  .sfj-arch{padding:28px 20px}
+  .sfj-arch ol{grid-template-columns:1fr}
+  .sfj-arch li{border-left:0;border-top:1px solid #ffffff26}
+  .sfj-arch li:first-child{border-top:0}
+  .projects{padding:84px 28px 48px}
+  .projects__list{grid-template-columns:1fr}
+  .projects__list article,.projects__list article:first-child{border-left:0;border-top:1px solid var(--line);padding:28px 0}
+  .projects__list article:first-child{border-top:0}
+  .org{grid-template-columns:1fr;gap:0}
+}
+@media (width<=520px){ .org{grid-template-columns:1fr} }
