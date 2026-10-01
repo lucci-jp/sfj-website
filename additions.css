@@ -31,7 +31,7 @@
 .org dt{color:#ffb347;font-size:11px;font-weight:800;letter-spacing:.16em}
 .org dd{margin:8px 0 0;font-size:14px;line-height:1.7;color:#fff}
 .todo{background:#fff3c4;color:#6b4e00;border-radius:3px;padding:1px 6px;font-weight:600}
-@media (width<=900px){
+@media (max-width:900px){
   .sfj-arch{padding:28px 20px}
   .sfj-arch ol{grid-template-columns:1fr}
   .sfj-arch li{border-left:0;border-top:1px solid #ffffff26}
@@ -42,7 +42,7 @@
   .projects__list article:first-child{border-top:0}
   .org{grid-template-columns:1fr;gap:0}
 }
-@media (width<=520px){ .org{grid-template-columns:1fr} }
+@media (max-width:520px){ .org{grid-template-columns:1fr} }
 
 /* ecosystem diagram (replaces sfj-ecosystem.jpeg) */
 .eco{margin:0}
@@ -69,7 +69,7 @@
 .eco__return b{font-family:var(--font-sfj);color:var(--navy);font-size:15px;font-weight:700;letter-spacing:.06em}
 .eco__vision{margin:58px 0 0;display:flex;align-items:center;gap:20px;color:var(--navy);font-size:13px;font-weight:700;letter-spacing:.08em}
 .eco__vision:before,.eco__vision:after{content:"";flex:1;height:1px;background:var(--line)}
-@media (width<=900px){
+@media (max-width:900px){
   .eco__flow{grid-template-columns:1fr}
   .eco__node{min-height:0;padding:22px 20px}
   .eco__arrow{height:52px}
