@@ -82,3 +82,10 @@
   .eco__return b:before{content:"↺ ";color:var(--orange)}
   .eco__vision{margin-top:32px;font-size:12px;text-align:center}
 }
+
+/* merged from concept diagram */
+.catalyst__flow em{font-style:normal;color:#ffffff80;font-size:11px;line-height:1.5}
+.catalyst__promise{margin-top:64px;text-align:center;color:#fff;font-family:var(--font-sfj);font-size:clamp(18px,2vw,26px);font-weight:600;line-height:1.7;letter-spacing:.02em}
+.vision__path--six span{min-width:0;flex:1;text-align:center;align-items:center}
+.vision__path--six b{font-size:12px;letter-spacing:.08em}
+@media (max-width:900px){.catalyst__promise{margin-top:44px}.vision__path--six span{flex:none}}
