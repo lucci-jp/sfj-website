@@ -108,6 +108,8 @@
 @media (max-width:900px){.hero__lead br.pc{display:none}}
 
 /* v5 */
+.simple__loop{margin-top:28px;display:flex;align-items:center;justify-content:center;gap:12px;color:var(--orange);font-size:13px;font-weight:700;letter-spacing:.08em;text-align:center}
+.simple__loop span{font-size:22px;line-height:1}
 .eco--compact{margin:0 0 56px}
 .eco--compact .eco__node{min-height:0}
 .simple__group--gap{margin-top:56px}
